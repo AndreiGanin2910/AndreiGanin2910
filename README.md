@@ -16,13 +16,16 @@
 ### 👋 Обо мне
 
 - 🎓 **17 лет**, Москва
-- 🤖 ML-инженер и олимпиадник по ИИ
+- 🤖 Junior ML Engineer / Applied AI Engineer
+- 🧩 Строю полный ML-пайплайн: данные, признаки, валидация, ансамбли и инференс
 - 🏅 Призёр **НТО** по искусственному интеллекту
 - 🎯 Финалист **Всероссийской олимпиады** (топ-50 России)
 - 🥉 **Kaggle Bronze** — 18 соревнований
-- 🥈 **2 место** на хакатоне по RecSys
+- 🥈 **2 место из 300 команд** на хакатоне по RecSys
 - 📊 Финалист **DEADLINE** (бизнес и аналитика)
-- 💪 Принцип: *никогда не сдаюсь и работаю на максимум*
+- 🔎 Открыт к ML-стажировкам, Junior ML ролям и проектному сотрудничеству
+
+**Основной фокус:** рекомендательные системы, табличный ML, PyTorch и leakage-safe валидация. В избранных проектах ниже есть прямые ссылки на код и проверяемые результаты.
 
 ---
 
@@ -106,7 +109,7 @@
 ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logoColor=black)
 ![ResNet](https://img.shields.io/badge/ResNet-FF6F00?style=flat-square)
 ![ViT](https://img.shields.io/badge/ViT-9C27B0?style=flat-square)
-![U--Net](https://img.shields.io/badge/U--Net-FF4081?style=flat-square)
+![U-Net](https://img.shields.io/badge/U--Net-FF4081?style=flat-square)
 ![Albumentations](https://img.shields.io/badge/Augment-E91E63?style=flat-square)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![WandB](https://img.shields.io/badge/W%26B-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black)
@@ -173,43 +176,43 @@
 <tr>
 <td width="50%">
 
-#### 🔬 Предсказание функции белка
-Мультилейбл классификация белков по Gene Ontology. Ансамбль моделей. **Top 5% Kaggle.**
+#### 📈 [Рекомендательная система](https://github.com/AndreiGanin2910/Hackathon-by-pages-2-place.-RecSys)
+ALS, BPR, SVD-CF, текстовые признаки и CatBoost learning-to-rank с diversity-aware reranking. **2 место из 300 команд.**
+
+`ALS` `BPR` `CatBoost` `Item2Vec` `Reranking`
+
+</td>
+<td width="50%">
+
+#### 📊 [Data Fusion — multi-label ML](https://github.com/AndreiGanin2910/Data-Fusion-top-60)
+41 банковский таргет, 1 млн клиентов и 2 441 признак. OOF-признаки, boosting и нейросетевой rank blend. **Private ROC-AUC 0,845, Top-60.**
+
+`LightGBM` `CatBoost` `PyTorch` `OOF`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 🎙️ [Keyword spotting в аудио](https://github.com/AndreiGanin2910/Vseross-AI-2025/blob/main/Task_A_0.975.ipynb)
+Log-Mel-признаки, hard negatives, SpecAugment, MixUp и ансамбль PyTorch-моделей. **Harmonic mean 0,943** на настроенной валидации.
+
+`PyTorch` `torchaudio` `CRNN` `Transformer`
+
+</td>
+<td width="50%">
+
+#### 🔬 [Предсказание функции белка](https://www.kaggle.com/qwertyyyy769492/competitions)
+Мультилейбл классификация белков по Gene Ontology. Ансамбль моделей и признаки по последовательностям. **115 / 2259, Kaggle Bronze.**
 
 `PyTorch` `LightGBM` `Embeddings` `Ensemble`
 
 </td>
-<td width="50%">
-
-#### 💬 RAG-ассистент на документах
-Чат-бот с поиском по PDF. Local LLM через Ollama, ChromaDB, Streamlit UI.
-
-`LangChain` `ChromaDB` `Ollama` `Streamlit`
-
-</td>
 </tr>
 <tr>
 <td width="50%">
 
-#### 🎯 Object Detection — YOLO
-Fine-tuning YOLOv8, аугментации, TTA, WBF-ансамбли.
-
-`YOLOv8` `Albumentations` `OpenCV` `WandB`
-
-</td>
-<td width="50%">
-
-#### 📈 Рекомендательная система
-Гибридная RecSys. **2 место на хакатоне.**
-
-`LightFM` `CatBoost` `implicit`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-#### 💹 Bybit Market Microstructure Analyzer
+#### 💹 [Bybit Market Microstructure Analyzer](https://github.com/AndreiGanin2910/Market-Microstructure-Analyzer)
 Полный анализ микроструктуры рынка за 24 часа. API Bybit, автоотчёт.
 
 `Python` `Bybit API` `Pandas` `Plotly` `asyncio`
@@ -217,7 +220,7 @@ Fine-tuning YOLOv8, аугментации, TTA, WBF-ансамбли.
 </td>
 <td width="50%">
 
-#### 🏠 House Prices — Top 2%
+#### 🏠 [House Prices — Top 2%](https://www.kaggle.com/qwertyyyy769492)
 Feature engineering, stacking, блендинг. **76 / 4500.**
 
 `CatBoost` `XGBoost` `Optuna` `Stacking`
