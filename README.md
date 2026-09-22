@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Андрей%20Ганин&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=ML%20Engineer%20·%2017%20лет%20·%20Москва&descSize=18&descAlignY=55&descColor=a29bfe" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Андрей%20Ганин&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Machine%20Learning%20Engineer%20·%20Москва&descSize=18&descAlignY=55&descColor=a29bfe" width="100%" />
 
 <br>
 
 <a href="https://AndreiGanin2910.github.io"><img src="https://img.shields.io/badge/🌐_Portfolio-Website-6c5ce7?style=for-the-badge" /></a>
 <a href="https://t.me/Andrei_diffurs"><img src="https://img.shields.io/badge/Telegram-@Andrei__diffurs-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
 <a href="https://www.kaggle.com/qwertyyyy769492"><img src="https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
-<a href="mailto:andrei_ganin09@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="mailto:andreiganin09@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 </div>
 
@@ -15,15 +15,15 @@
 
 ### 👋 Обо мне
 
-- 🎓 **17 лет**, Москва
-- 🤖 Junior/Middle ML Engineer
+- 📍 **Москва**, 11 класс
+- 🤖 **Machine Learning Engineer** с 3 годами опыта в соревновательных и прикладных ML-задачах
 - 🧩 Строю полный ML-пайплайн: данные, признаки, валидация, ансамбли и инференс
 - 🏅 Призёр **НТО** по искусственному интеллекту
 - 🎯 Финалист **Всероссийской олимпиады по ИИ** (топ-50 России)
 - 🥉 **Kaggle Bronze** — 18 соревнований
 - 🥈 **2 место из 300 команд** на хакатоне по RecSys
 - 📊 Финалист **DEADLINE** (бизнес и аналитика)
-- 🔎 Открыт к ML-стажировкам, Junior/Middle ML ролям и проектному сотрудничеству
+- 🔎 Открыт к ML-инженерным ролям, стажировкам и проектному сотрудничеству
 
 **Основной фокус:** рекомендательные системы, табличный ML, PyTorch и leakage-safe валидация. В избранных проектах ниже есть прямые ссылки на код и проверяемые результаты.
 
@@ -176,7 +176,7 @@
 <tr>
 <td width="50%">
 
-#### 📈 [Рекомендательная система](https://github.com/AndreiGanin2910/Hackathon-by-pages-2-place.-RecSys)
+#### 📈 [Рекомендательная система](https://github.com/AndreiGanin2910/Hackathon-by-pages-2-place-RecSys)
 ALS, BPR, SVD-CF, текстовые признаки и CatBoost learning-to-rank с diversity-aware reranking. **2 место из 300 команд.**
 
 `ALS` `BPR` `CatBoost` `Item2Vec` `Reranking`
@@ -194,10 +194,10 @@ ALS, BPR, SVD-CF, текстовые признаки и CatBoost learning-to-ra
 <tr>
 <td width="50%">
 
-#### 🎙️ [Keyword spotting в аудио](https://github.com/AndreiGanin2910/Vseross-AI-2025/tree/main/task-a-audio)
-Log-Mel-признаки, hard negatives, SpecAugment, MixUp и ансамбль PyTorch-моделей. **Harmonic mean 0,943** на настроенной валидации.
+#### 🎙️ [Keyword spotting в аудио](https://github.com/AndreiGanin2910/Vseross-AI-2025)
+Fine-tuning XLS-R/Wav2Vec2 для поиска целевых фраз в аудиозаписях. **Leaderboard score 0,975.**
 
-`PyTorch` `torchaudio` `CRNN` `Transformer`
+`PyTorch` `Wav2Vec2` `XLS-R` `torchaudio`
 
 </td>
 <td width="50%">
@@ -220,10 +220,28 @@ Log-Mel-признаки, hard negatives, SpecAugment, MixUp и ансамбль
 </td>
 <td width="50%">
 
-#### 🏠 [House Prices — Top 2%](https://www.kaggle.com/qwertyyyy769492)
-Feature engineering, stacking, блендинг. **76 / 4500.**
+#### 🏠 [House Prices — Top 2%](https://github.com/AndreiGanin2910/Kaggle-House-Prices-Top-2-Percent)
+Доменные признаки, обработка пропусков и AutoGluon с 5-fold bagging и стекингом. **RMSLE около 0,115; 76 / 4500.**
 
-`CatBoost` `XGBoost` `Optuna` `Stacking`
+`AutoGluon` `Feature Engineering` `5-fold Bagging` `Stacking`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+#### 🧬 [FAIO 2026 — задачи по NLP](https://github.com/AndreiGanin2910/FAIO-2026)
+Определение автора оценки перевода и BIO-разметка для обратной нормализации текста. **29 место из 500 команд; ROC-AUC 0,7622 и span-level F1 около 0,914.**
+
+`COMET` `Pairwise Models` `RuBERT` `BIO Viterbi`
+
+</td>
+<td width="50%">
+
+#### 🐾 [PetFinder Pawpularity](https://github.com/AndreiGanin2910/PetFinder-Pawpularity)
+Признаки изображения и метаданные, CatBoost и стратифицированная 5-fold валидация. **Private RMSE 20,45801.**
+
+`Computer Vision` `Image Features` `CatBoost` `Stratified K-Fold`
 
 </td>
 </tr>
