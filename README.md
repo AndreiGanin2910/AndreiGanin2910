@@ -194,7 +194,7 @@ ALS, BPR, SVD-CF, текстовые признаки и CatBoost learning-to-ra
 <tr>
 <td width="50%">
 
-#### 🎙️ [Keyword spotting в аудио](https://github.com/AndreiGanin2910/Vseross-AI-2025/blob/main/Task_A_0.975.ipynb)
+#### 🎙️ [Keyword spotting в аудио](https://github.com/AndreiGanin2910/Vseross-AI-2025/tree/main/task-a-audio)
 Log-Mel-признаки, hard negatives, SpecAugment, MixUp и ансамбль PyTorch-моделей. **Harmonic mean 0,943** на настроенной валидации.
 
 `PyTorch` `torchaudio` `CRNN` `Transformer`
